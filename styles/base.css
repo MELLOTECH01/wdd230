@@ -36,11 +36,7 @@ nav {
 }
 
 nav a {
-    display: block;
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0.5rem;
+    display: none;
 }
 
 nav a:hover {
@@ -49,6 +45,32 @@ nav a:hover {
 
 nav .active {
     background-color: #633200;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #eee;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.show a {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+#menu.show::before {
+    content: "X";
 }
 
 main {
@@ -94,6 +116,15 @@ section img {
     width: 10%;
 }
 
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
 footer {
     padding: 1rem;
 }
@@ -109,13 +140,4 @@ footer p {
 
 #lastModified {
     color: #e9d700;
-}
-
-header,
-footer,
-nav {
-    max-width: 1024px;
-    margin: 0 auto;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
 }
