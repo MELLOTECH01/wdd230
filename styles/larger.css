@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   nav {
     display: flex;
     justify-content: space-around;
@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0.5rem;
-    max-width: 640px;
+    max-width: 960px;
     margin: 1rem auto;
     padding: 1rem;
   }
@@ -32,5 +32,36 @@
 
   .card:nth-of-type(2) {
     grid-column: 3/4;
+  }
+
+  /* Hero section styles for larger screens */
+  .hero {
+    grid-column: 1 / -1;
+    position: relative;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px 25px;
+    font-size: 2rem;
+    white-space: nowrap;
+    border-radius: 8px;
+  }
+
+  .map iframe {
+    height: 400px;
   }
 }

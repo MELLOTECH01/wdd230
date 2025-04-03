@@ -1,28 +1,29 @@
-// select the span element with currentyear as id name
+// Select the span element with currentyear as id name
 let currentyear = document.querySelector("#currentyear");
 
-// create an instance of date object
+// Create an instance of date object
 let today = new Date();
 
-// manipulate the content of currentyear
+// Manipulate the content of currentyear
 currentyear.innerHTML = today.getFullYear();
 
-// get lastModified property of document object
+// Get lastModified property of document object
 let lastModified = document.querySelector("#lastModified");
 
-// manipulate the content of paragraph element with lastModified as id name
+// Manipulate the content of paragraph element with lastModified as id name
 lastModified.innerHTML = `Last Modification: ${document.lastModified}`;
 
 // Store the selected elements
-const mainnav = document.querySelector('nav')
+const mainnav = document.querySelector('nav');
 const hambutton = document.querySelector('#menu');
 
-// Add a click event listender to the hamburger button and use a callback function that toggles the list element's list of classes.
+// Add a click event listener to the hamburger button
 hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('show');
     hambutton.classList.toggle('show');
 });
 
+// Toggle dark/light mode
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 modeButton.addEventListener("click", () => {
@@ -36,3 +37,9 @@ modeButton.addEventListener("click", () => {
         modeButton.textContent = " ";
     }
 });
+
+// Page visit counter
+let visitCount = localStorage.getItem("visitCount") || 0;
+visitCount++;
+localStorage.setItem("visitCount", visitCount);
+document.querySelector("#visit-count").textContent = visitCount;
