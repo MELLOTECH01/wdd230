@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayo Oluwasuyi | WDD 230 - Web Frontend Development | Form Page</title>
+    <meta name="description" content="Dayo Oluwasuyi || WDD 230 - Web Frontend Development || The course form page.">
+    <meta name="author" content="Dayo Oluwasuyi">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Form Page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mellotech01.github.io/wdd230/form.html">
+    <meta property="og:image" content="images/lagos.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <header>
+        <div id="mode">
+            🕶️
+        </div><img src="images/profile.webp" alt="Profile"><span>Dayo Oluwasuyi</span>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav><a href="" class="active">Home</a><a href="">Chamber</a><a href="week01/chamber-site-plan.html">Site Plan</a><a
+            href="">Form</a></nav>
+
+    <main>
+        <h2>Register</h2>
+        <form method="get" action="record.html" id="signup-form">
+            <label>Username
+                <input type="text" id="username" name="username" required>
+            </label>
+
+            <label>Password
+                <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}"
+                    title="At least 8 alphanumeric characters" required>
+            </label>
+
+            <label>Confirm Password
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </label>
+            <div id="password-message" class="error"></div>
+
+            <label>Email
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"
+                    title="Please enter a valid BYUI email address" required>
+            </label>
+
+            <label>Rate This Page: <span id="rating-value">5</span>
+                <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5">
+            </label>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Dayo Oluwasuyi | Nigeria <img src="images/flag-of-nigeria.webp"
+                alt="Flag of Nigeria"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+
+</body>
+
+</html>

@@ -60,6 +60,17 @@ nav {
     justify-content: space-around;
     background-color: #000000;
 }
+nav a{
+    display: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .active {
+    background-color: #633200;
+}
 
 #menu {
     display: block;
@@ -101,10 +112,57 @@ main {
     border-radius: 5px;
 }
 
+h1 {
+    font-weight: normal;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 0.2rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+section p {
+    text-align: center;
+}
+
+section img {
+    width: 10%;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
 footer {
     padding: 1rem;
 }
 
 footer img {
     width: 10%;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+#lastModified {
+    color: #e9d700;
 }
