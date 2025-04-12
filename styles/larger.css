@@ -15,7 +15,7 @@
     padding: 0.5rem;
   }
 
-  #menu{
+  #menu {
     display: none;
   }
 
@@ -65,6 +65,10 @@
     font-size: 2rem;
     white-space: nowrap;
     border-radius: 8px;
+  }
+
+  .map {
+    grid-column: 2/3;
   }
 
   .map iframe {

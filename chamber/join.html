@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagos Chamber of Commerce | Join</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Lagos Chamber of Commerce - Connecting businesses and fostering economic growth.">
+    <meta name="author" content="Dayo Oluwasuyi">
+    <meta property="og:title" content="Lagos Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://www.lagoschamber.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+
+    <header>
+        <button id="menu-btn">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directories</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="join-grid">
+        <section class="form-section">
+            <h1>Join the Chamber</h1>
+            <form method="get" action="thankyou.html">
+                <label>
+                    First Name:
+                    <input type="text" name="fname" id="fname" required />
+                </label>
+
+                <label>
+                    Last Name:
+                    <input type="text" name="lname" id="lname" required />
+                </label>
+
+                <label>
+                    Title/Position:
+                    <input type="text" name="title" id="title" pattern="[A-Za-z\s\-]{7,}" />
+                </label>
+
+                <label>
+                    Email:
+                    <input type="email" name="email" id="email" required placeholder="yourname@example.com" />
+                </label>
+
+                <label>
+                    Phone Number:
+                    <input type="tel" name="phone" id="phone" required />
+                </label>
+
+                <label>
+                    Business Name:
+                    <input type="text" name="business" id="business" required />
+                </label>
+
+                <label>
+                    Membership Level:
+                    <select name="membership" id="membership">
+                        <option value="NP">NP Membership (Free for Non-Profits)</option>
+                        <option value="Bronze">Bronze</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Gold">Gold</option>
+                    </select>
+                </label>
+
+                <label>
+                    Business Description:
+                    <textarea name="description" id="description" rows="4"></textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp" />
+
+                <input type="submit" value="Submit Application" class="cta-button" />
+            </form>
+        </section>
+
+        <aside class="benefits-section">
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li><strong>NP:</strong> Basic access, community visibility, and support.</li>
+                <li><strong>Bronze:</strong> Training events, small-scale ads, networking.</li>
+                <li><strong>Silver:</strong> Priority listing, event discounts, job board access.</li>
+                <li><strong>Gold:</strong> Homepage spotlight, free booths at events, ad credits.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lagos Chamber of Commerce</p>
+        <p>Project for WDD 230 | Last modified: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/chamber.js" defer></script>
+</body>
+
+</html>

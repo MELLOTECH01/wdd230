@@ -1,26 +1,25 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     #menu-btn {
-        display: block;
-    }
-
-    #nav-menu {
         display: none;
-        background: #00509e;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    #nav-menu.show {
-        display: block;
     }
 
     nav ul {
-        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-family: 'Montserrat', sans-serif;
     }
 
     nav ul li {
         display: block;
-        margin: 10px 0;
+    }
+   
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
     }
 
     /* Hover Effect for Larger Screens */
@@ -31,4 +30,18 @@
     main {
         grid-template-columns: 30% 70%;
     }
+
+    .join-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .form-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+    }
+
+    #directory.grid-view {
+        grid-template-columns: repeat(2, 1fr);
+      }
 }
