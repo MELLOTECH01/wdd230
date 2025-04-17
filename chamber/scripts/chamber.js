@@ -45,8 +45,11 @@ const directoryContainer = document.querySelector('#directory');
 const gridBtn = document.querySelector('#gridBtn');
 const listBtn = document.querySelector('#listBtn');
 
+const baseURL = "https://mellotech01.github.io/wdd230/chamber/";
+const membersURL = `${baseURL}data/links.json`;
+
 async function getMembers() {
-  const response = await fetch('data/members.json');
+  const response = await fetch(membersURL);
   const data = await response.json();
   displayMembers(data.members);
 }
