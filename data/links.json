@@ -1,0 +1,115 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-naming-conventions.html",
+                    "title": "File and Folder Naming Conventions"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-web-dev-standards.html",
+                    "title": "Web Development Standards"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html",
+                    "title": "Page Layout Review"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-applied-javascript.html",
+                    "title": "Applied JavaScript"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-media-queries.html",
+                    "title": "Responsive Design: CSS Media Queries"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-design-principles.html",
+                    "title": "Design Principles"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-favicon.html",
+                    "title": "Favicon"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-social-media-meta.html",
+                    "title": "Social Media Meta"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-responsive-menu.html",
+                    "title": "Responsive Hamburger Menu"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-dom-manipulation.html",
+                    "title": "DOM Manipulation"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-specificity.html",
+                    "title": "CSS Specificity"
+                },
+                {"url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-normalize.html",
+                    "title": "CSS Normalize and Reset"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week03/prepare-webp.html",
+                    "title": "WebP Image File Format"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week03/prepare-lazyload.html",
+                    "title": "Native Lazy Loading"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week03/prepare-responsive-images.html",
+                    "title": "Responsive Images - Srcset"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week03/prepare-localStorage.html",
+                    "title": "Web Storage API - localStorage"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week04/prepare-pseudo-classes.html",
+                    "title": "CSS Pseudo-classes"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week04/prepare-combinators.html",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week04/prepare-tables.html",
+                    "title": "HTML Tables for Data Presentation"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week04/prepare-forms.html",
+                    "title": "HTML Forms"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week05/prepare-pseudo-elements.html",
+                    "title": "Pseudo-elements"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week05/prepare-json.html",
+                    "title": "Working with JSON data"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week05/prepare-fetch.html",
+                    "title": "The Fetch API"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week05/prepare-api-weather.html",
+                    "title": "Consuming a third-party weather API"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lagos Chamber of Commerce | Directory</title>
+  <meta name="description" content="Lagos Chamber of Commerce Directory Page" />
+  <meta name="author" content="Dayo Oluwasuyi" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Lagos Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://www.lagoschamber.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.webp" alt="Chamber Logo" />
+    <h1>Lagos Chamber of Commerce</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="discover.html">Discover</a>
+    <a href="join.html">Join</a>
+    <a class="active" href="directory.html">Directory</a>
+  </nav>
+  <main>
+    <h2>Business Directory</h2>
+    <div class="view-toggle">
+      <button id="gridBtn">🔲 Grid View</button>
+      <button id="listBtn">📋 List View</button>
+    </div>
+    <section id="directory" class="grid-view"></section>
+  </main>
+  <footer>
+    <p>&copy;<span id="currentyear"></span> Lagos Chamber of Commerce</p>
+    <p id="lastModified"></p>
+  </footer>
+ 
+  <script src="scripts/chamber.js"></script>
+</body>
+</html>

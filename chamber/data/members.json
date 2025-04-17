@@ -1,0 +1,60 @@
+{
+    "members": [
+      {
+        "name": "TechPoint Ltd",
+        "address": "15 Awolowo Road, Ikeja, Lagos",
+        "phone": "+234-812-345-6789",
+        "website": "https://techpoint.ng",
+        "image": "techpoint.webp",
+        "membership": "Gold"
+      },
+      {
+        "name": "EcoBuild Inc",
+        "address": "2 Alausa Street, Ikeja, Lagos",
+        "phone": "+234-803-111-2222",
+        "website": "https://ecobuild.ng",
+        "image": "ecobuild.webp",
+        "membership": "Silver"
+      },
+      {
+        "name": "NaijaMarket",
+        "address": "42 Oba Akran Ave, Ikeja, Lagos",
+        "phone": "+234-701-555-8888",
+        "website": "https://naijamarket.ng",
+        "image": "naijamarket.webp",
+        "membership": "Bronze"
+      },
+      {
+        "name": "GreenPrint",
+        "address": "10 Adeola Odeku, VI, Lagos",
+        "phone": "+234-809-456-7890",
+        "website": "https://greenprint.ng",
+        "image": "greenprint.webp",
+        "membership": "NP"
+      },
+      {
+        "name": "Lagos Creatives",
+        "address": "7 Adetokunbo Ademola, VI, Lagos",
+        "phone": "+234-704-321-7890",
+        "website": "https://lagoscreatives.ng",
+        "image": "lagoscreatives.webp",
+        "membership": "Silver"
+      },
+      {
+        "name": "ChopLife Foods",
+        "address": "55 Allen Avenue, Ikeja, Lagos",
+        "phone": "+234-802-123-4567",
+        "website": "https://choplifefoods.ng",
+        "image": "choplife.webp",
+        "membership": "Bronze"
+      },
+      {
+        "name": "FutureTech",
+        "address": "20 Marina Rd, Lagos Island",
+        "phone": "+234-810-789-1234",
+        "website": "https://futuretech.ng",
+        "image": "futuretech.webp",
+        "membership": "Gold"
+      }
+    ]
+  }
